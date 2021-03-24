@@ -1,8 +1,13 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function getSeason(date) {
+  if (!date) return "Unable to determine the time of year!";
   let season = String(date).split(" ");
-  season = date[2];
+  season = season[1];
+  if (season.length != 3) {
+    throw "THROWN";
+  }
+  let result;
   let seasons = {
     winter: ["winter", "Dec", "Jan", "Feb"],
     summer: ["summer", "Aug", "Jul", "Jun"],
@@ -12,8 +17,12 @@ module.exports = function getSeason(date) {
   for (let key in seasons) {
     seasons[key].forEach((elem) => {
       if (season == elem) {
-        return seasons[key][0];
+        result = seasons[key][0];
       }
     });
   }
+  if (result == undefined || result == null) {
+    throw "THROWN";
+  }
+  return result;
 };
