@@ -1,0 +1,463 @@
+[33mcommit 2430f882d18b34eef47fe285cc8ec4c21078a873[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Recomagnesius <buzhor.danyl@gmail.com>
+Date:   Wed Mar 24 16:09:43 2021 +0200
+
+    feat: what-season(have errors)
+
+[33mcommit bc442bc9ded26f7aac04f0fec20232fec2798555[m
+Author: Recomagnesius <buzhor.danyl@gmail.com>
+Date:   Wed Mar 24 14:18:53 2021 +0200
+
+    feat: count-cats, dream-team, hanoi-tower
+
+[33mcommit a88c81b6480fee4c46349ac9cb8a4c9a67d8aa5e[m
+Merge: d50b23b 3d02bcb
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Sun Feb 28 17:22:58 2021 +0300
+
+    Merge pull request #66 from maksumov/update-transform-array-requirements
+    
+    docs: clarify transform-array task description
+
+[33mcommit 3d02bcb92ba48a8ee0c94e7e0255b43851190770[m
+Author: Marat Maksumov <maksumov@users.noreply.github.com>
+Date:   Sun Feb 28 14:18:34 2021 +0300
+
+    docs: add an important clarification regarding the deleted items
+
+[33mcommit bbee78b0b57c0f4f816904fec03dc67c8bdeae1e[m
+Author: Marat Maksumov <maksumov@users.noreply.github.com>
+Date:   Sun Feb 28 12:56:22 2021 +0300
+
+    docs: detail the requirements to the Transform array subtask
+
+[33mcommit d50b23bb35d6c05a3660ac1f82878f5337f99efe[m
+Merge: 4a15218 b559741
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Sat Feb 27 18:14:08 2021 +0300
+
+    Merge pull request #65 from AlreadyBored/feat/improve-extended-repeater-tests
+    
+    feat: add test for conversion to string + test for no additions & fix…
+
+[33mcommit b55974161701e8addd1be892c8926b2030d33e69[m[33m ([m[1;31morigin/feat/improve-extended-repeater-tests[m[33m)[m
+Author: Maksim Shylau <shilaums@gmail.com>
+Date:   Sat Feb 27 18:07:37 2021 +0300
+
+    feat: add test for conversion to string + test for no additions & fix tests with explicitly conveyed undefined
+
+[33mcommit 4a1521892b31cc87b5787bbf6042e2d593b5a532[m
+Merge: 18e8be8 d5fe835
+Author: Maksim Shylau <shilaums@gmail.com>
+Date:   Sat Feb 27 12:25:31 2021 +0300
+
+    Merge branch 'master' of github.com:AlreadyBored/basic-js
+
+[33mcommit 18e8be8770e8fb14f1e3e9adbc25e49daa0065c9[m
+Author: Maksim Shylau <shilaums@gmail.com>
+Date:   Sat Feb 27 12:25:11 2021 +0300
+
+    fix: fix broken call in carbon-dating subtask
+
+[33mcommit 6fd72e0a450e250103106441dc3898e18abb169e[m
+Author: Maksim Shylau <shilaums@gmail.com>
+Date:   Sat Feb 27 12:24:35 2021 +0300
+
+    fix: change test sript & remove unnecessary file
+
+[33mcommit d5fe8350595f50df62428f7397b8adb05fbc7a08[m
+Merge: d5376c1 4f8ec89
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Thu Feb 25 22:21:03 2021 +0300
+
+    Merge pull request #61 from Jaskon/master
+    
+    fix: fix nested tests in carbon-dating
+
+[33mcommit d5376c1058be4e19dac16014283adc70742cc16a[m
+Merge: bdd0828 c550aa7
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Thu Feb 25 20:53:51 2021 +0300
+
+    Merge pull request #59 from kukinpower/patch-1
+    
+    fix: fix grammar mistake in README.md
+
+[33mcommit 4f8ec894ad94a4fd92d18036bf00adec5aebe53b[m
+Author: Yuaheni Arlou <Yuaheni.Arlou3@ibm.com>
+Date:   Thu Feb 4 13:52:31 2021 +0300
+
+    Fix breaking call
+    
+    The call of carbon-dating function wrapped into try-catch
+      to not break test in an error thrown
+
+[33mcommit 1e7dd918437048f3584023ea28753fdc488e2c83[m
+Author: Yuaheni Arlou <Yuaheni.Arlou3@ibm.com>
+Date:   Thu Feb 4 13:31:38 2021 +0300
+
+    carbon-dating.test - fix nested tests in Mocha
+    
+    Looks like nested it() are not supported by Mocha
+    So here is probably a mistake - all tests under parent's
+      it('passes simpliest check and determines correct tests', ...)
+      do not run at all
+
+[33mcommit c550aa75aa822bc5c567802fd807c75a45994348[m
+Author: kukinpower <60896644+kukinpower@users.noreply.github.com>
+Date:   Wed Jan 27 21:28:13 2021 +0300
+
+    fix: grammar mistake
+    
+    Устаовите->Установите
+
+[33mcommit bdd0828c7bbe63c9ae86ce9935906890431e0490[m
+Author: abadire <49831355+abadire@users.noreply.github.com>
+Date:   Sat Oct 3 20:37:00 2020 +0300
+
+    docs: edit recursive-depth description (#46)
+
+[33mcommit c3944c770ee969cb2fda56423dd27d580ba3db9b[m
+Merge: 1f4feb7 af8ca2e
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Mon Sep 28 09:27:54 2020 +0300
+
+    Merge pull request #39 from f19m/patch-1
+    
+    fix: README_RU.md
+
+[33mcommit 1f4feb7532fed86605832b00d921c640970f682d[m
+Merge: f98a58a a34cb00
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Mon Sep 28 09:27:34 2020 +0300
+
+    Merge pull request #40 from f19m/patch-2
+    
+    fix: README_RU.md
+
+[33mcommit a34cb000113405acd70c15b449f81b1d1dc24630[m
+Author: f19m <64548103+f19m@users.noreply.github.com>
+Date:   Mon Sep 21 13:09:20 2020 +0500
+
+    README_RU.md
+    
+    Исправлена опечатка в задании с преобразованием массива
+
+[33mcommit af8ca2e768c2f71868503adbe94082c1f977f394[m
+Author: f19m <64548103+f19m@users.noreply.github.com>
+Date:   Mon Sep 21 12:33:52 2020 +0500
+
+    fix: README_RU.md
+    
+    Исправление ошибки в описании с округлением секунд в задании про башню
+
+[33mcommit f98a58a34671527de94016f7436aaa6f9729ff77[m
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Thu Sep 17 20:42:50 2020 +0300
+
+    Update carbon-dating test (#37)
+    
+    * fix: replace strange 2 dots test to equal effect test
+    
+    * fix: add 2 alternative tests for different coefficient calculation
+    
+    * fix: fix incorrect behavior when task isnt solved
+    
+    * docs: update carbon-dating description
+    
+    * docs: update what-season description
+    
+    * docs: update hanoi-tower description
+    
+    * fix: fix vigenere-cipher tests
+    
+    * docs: add examples to tasks descriptions
+    
+    * docs: update translation & fix typos in README
+    
+    * feat: add additional replacing tests
+
+[33mcommit 5bbb75bba2ba687281ca1559c86fa1f2cef01e24[m
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Thu Sep 17 19:02:35 2020 +0300
+
+    Update some taks & fix problems (#36)
+    
+    * fix: replace strange 2 dots test to equal effect test
+    
+    * fix: add 2 alternative tests for different coefficient calculation
+    
+    * fix: fix incorrect behavior when task isnt solved
+    
+    * docs: update carbon-dating description
+    
+    * docs: update what-season description
+    
+    * docs: update hanoi-tower description
+    
+    * fix: fix vigenere-cipher tests
+    
+    * docs: add examples to tasks descriptions
+    
+    * docs: update translation & fix typos in README
+
+[33mcommit e3d4458e122eac3cfb70b301699f2aa1a88f66fc[m
+Merge: ddb2f95 b7ac776
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Tue Sep 8 19:50:46 2020 +0300
+
+    Merge pull request #32 from AlreadyBored/dependabot/npm_and_yarn/lodash-4.17.19
+    
+    build(deps): bump lodash from 4.17.15 to 4.17.19
+
+[33mcommit b7ac776d559074524dcf6d91214efca78187f18c[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sun Jul 19 14:38:31 2020 +0000
+
+    build(deps): bump lodash from 4.17.15 to 4.17.19
+    
+    Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+    - [Release notes](https://github.com/lodash/lodash/releases)
+    - [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit ddb2f956b900f57b8b94d48d5fa58f0d4ded9ebe[m
+Merge: 9c4340c ff80048
+Author: Maxim Shylau <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Sun May 31 15:59:28 2020 +0300
+
+    Merge pull request #31 from AlreadyBored/fix/transform-array
+    
+    Fix transform array subtask tests
+
+[33mcommit ff8004896eac5f2bfdb152eb275b3ac6cf0db3bd[m[33m ([m[1;31morigin/fix/transform-array[m[33m)[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat May 30 22:02:26 2020 +0300
+
+    feat: add 2 additional expository tests
+
+[33mcommit 82c868805646ac7e94bc2d3ab5e2912f66c6cb7e[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat May 30 21:08:54 2020 +0300
+
+    fix: fix createSample func to work according task description
+
+[33mcommit 9c4340ca61c3851d48aa715c4394b526a4df05d1[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sun May 3 21:14:37 2020 +0300
+
+    fix: fix README name
+
+[33mcommit a62c39c7b89807d8b83fb4b3e89cb69a813f0dc1[m
+Merge: 954bb53 620f8d3
+Author: AlreadyBored <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Sun May 3 21:11:54 2020 +0300
+
+    Merge pull request #28 from AlreadyBored/dev
+    
+    Update master branch to v1.1
+
+[33mcommit 620f8d3dec20b1e27b98bf96a64f0a2061b54018[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sun May 3 21:08:36 2020 +0300
+
+    docs: make translation into Russian & minor fix in English version of README
+
+[33mcommit 83c7c43413c35e9534e51a6bfe835d36c79a313f[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat May 2 23:07:39 2020 +0300
+
+    feat: update vigenere-cipher task description
+
+[33mcommit 8b15443db757f9b5836abe2a44c9b52efe95697e[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat May 2 22:28:27 2020 +0300
+
+    feat: update task transform-array description & tests & add new test for it
+
+[33mcommit c21d85e898a9b819c4fb9853edd9e03939d5b5cb[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Fri May 1 17:21:57 2020 +0300
+
+    fix: fix hanoi-tower test issue with precision + fix it-optional implementation + minor fixes to descriptions
+
+[33mcommit 954bb53f935e56a7dd0dcaaa2506cc43244fe835[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sun Feb 16 13:30:19 2020 +0300
+
+    fix: fix tests for what-season
+
+[33mcommit 32aa4861cbc3a4d35ba935e7e68c3b3feb4f1d13[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 15 21:22:46 2020 +0300
+
+    docs: update some links
+
+[33mcommit d5c095a8d1099ee454ed35822e47e4f84c526362[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 15 20:28:15 2020 +0300
+
+    docs: fix some links in README.md
+
+[33mcommit b6034e4b0bc6f79e7add14ca01ea2a8f12a279b3[m
+Author: AlreadyBored <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Wed Feb 12 11:57:20 2020 +0300
+
+    docs: update README.md
+
+[33mcommit a3c41ecc6ef8e5476e76ad382439095c22dfd398[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Mon Feb 10 23:41:52 2020 +0300
+
+    feat: add some tests & refactor readme & implement it-optional
+
+[33mcommit 4fb3a717bbab525d33c7729ce586fe1799f5525b[m
+Merge: 6790219 962299e
+Author: AlreadyBored <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Sun Feb 9 20:19:41 2020 +0300
+
+    Merge pull request #6 from AlreadyBored/recursive-try
+    
+    Recursive try
+
+[33mcommit 962299e50a08f277b1610bff780f9c551bffce87[m[33m ([m[1;31morigin/recursive-try[m[33m)[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sun Feb 9 20:17:00 2020 +0300
+
+    refactor: rewrite subtask recursive-depth
+
+[33mcommit 04176c3b4f16303807f28da24757163fa4aefc32[m
+Author: Dzmitry Tsebruk <mikhama@tut.by>
+Date:   Sat Feb 8 23:50:53 2020 +0300
+
+    fix: make it possible to count recursion calls
+
+[33mcommit 3b6a8ef9fde84727aedead4909ccaf3a3e6b3d34[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 8 20:45:22 2020 +0300
+
+    feat: make try to implement recursive work check
+
+[33mcommit 67902196065d0d3daf639d56cdede84f38b4b9ad[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 8 20:40:08 2020 +0300
+
+    feat: obfuscate vigenere-cipher tests
+
+[33mcommit b02074dca344c7cd04fe34b7e5e3a9b327bf2d58[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 8 14:40:55 2020 +0300
+
+    fix: replace Node.js assert with chai assert
+
+[33mcommit 148400779b33242ae4a14f382951e93d5835c27e[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sat Feb 8 14:11:33 2020 +0300
+
+    feat: add subtasks recoursive-depth and simple-chain
+
+[33mcommit 1a1ce57fe126f4f741d12352e05dd2c32d08c4d4[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Wed Feb 5 21:03:43 2020 +0300
+
+    feat: add subtask transform-array with some tests & minor fixes to other subtasks tests
+
+[33mcommit e237ba463096800985ebfab0b236925b9c1c378c[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Sun Feb 2 18:30:25 2020 +0300
+
+    feat: add subtask hanoi-tower with some basic tests
+
+[33mcommit 98862f2fc3353ed32f8ebcf26c6b3de38deeae30[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Fri Jan 31 11:18:46 2020 +0300
+
+    fix: minor fixes of README.md & vigenere-cipher.js files
+
+[33mcommit 86dbbea860cf157da7251b7d6cbaad20193e70ba[m
+Author: AlreadyBored <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Fri Jan 31 10:49:18 2020 +0300
+
+    docs: update vigenere cipher subtask description
+
+[33mcommit a29ebd07da85b3335e1ca9fa94c90913abe447af[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Thu Jan 30 22:35:40 2020 +0300
+
+    docs: fix README.md
+
+[33mcommit a35cbea2fcecf4683df9a0c4a2f9cfb07184ce8f[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Thu Jan 30 22:33:37 2020 +0300
+
+    feat: add subtask vigenere-cipher and pack of basic tests for it
+
+[33mcommit d8d1d9ff355d57a3088be5b2be76f7b6294b336e[m
+Merge: 7af328e 107e42e
+Author: AlreadyBored <34455330+AlreadyBored@users.noreply.github.com>
+Date:   Wed Jan 29 21:27:12 2020 +0300
+
+    Merge pull request #5 from AlreadyBored/feat/add-fake-random-example
+    
+    feat: add fake random example
+
+[33mcommit 7af328ed8ec89c67689840ae4a4cfc45f7693739[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Wed Jan 29 21:22:55 2020 +0300
+
+    fix: remove unnecessary '--timeout' from 'test' script
+
+[33mcommit 42f61876f00a34e1e7521bbff150c2943425cc45[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Wed Jan 29 21:21:37 2020 +0300
+
+    fix: remove unnecessary dependencies & refactor package.json
+
+[33mcommit f41a18e53703cc52d8fe7695cc914cf6223f48aa[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Wed Jan 29 21:15:02 2020 +0300
+
+    fix: compact all parameters except 'str'
+
+[33mcommit 4b3675729122020a8cff1c9906545ed863705fac[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Wed Jan 29 20:48:49 2020 +0300
+
+    fix: move carbon-dating subtask constants outside of function
+
+[33mcommit 107e42ef12454a4ca142ad51586dc59478e34cb4[m[33m ([m[1;31morigin/feat/add-fake-random-example[m[33m)[m
+Author: Dzmitry Tsebruk <mikhama@tut.by>
+Date:   Wed Jan 29 15:33:56 2020 +0300
+
+    feat: add fake random example
+
+[33mcommit f1ef9a7a7b94e1cb0020a168bfdc2e878d47cb41[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Tue Jan 28 20:38:58 2020 +0300
+
+    refactor: migrate tests from jest to mocha+chai
+
+[33mcommit 77217f52329bbe9c59e68e06743e34032155eead[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Mon Jan 27 23:17:21 2020 +0300
+
+    feat: minor fix of tests and finished tasks & add new task
+
+[33mcommit 4cac8b20246d0fc4d16ac2b291fcf9bb60f89597[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Mon Jan 27 21:10:39 2020 +0300
+
+    fix: fix task name & info about repo in package.json
+
+[33mcommit e427bb49fb75e2ae4c4ff07f6c0737d8a4067c97[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Mon Jan 27 21:07:55 2020 +0300
+
+    docs: create README.md and fill it with info about tasks
+
+[33mcommit ae4d8f3939c5bdbf10d3ad5b4f70f144a237f2ca[m
+Author: AlreadyBored <shilaums@gmail.com>
+Date:   Mon Jan 27 20:43:20 2020 +0300
+
+    init: create base structure of repository & add some tasks from other repos
