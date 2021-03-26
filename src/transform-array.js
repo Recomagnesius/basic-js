@@ -6,6 +6,7 @@ module.exports = function transform(arr) {
   let double;
   let ignore;
   let result = [];
+  let lastItem;
 
   arr.forEach((elem, index, arr) => {
     //чекаем команды
@@ -21,6 +22,7 @@ module.exports = function transform(arr) {
         } else if (command[3] == "prev") {
           discard = index - 1;
           ignore = elem;
+          result.splice(result.length - 1, 1);
         }
       }
       if (command[2] == "double") {
@@ -30,15 +32,21 @@ module.exports = function transform(arr) {
         } else if (command[3] == "prev") {
           double = index - 1;
           ignore = elem;
+          result.push(lastItem);
         }
       }
     }
     //пушим в массив
     if (elem) {
-      if (index != discard && elem != ignore) result.push(elem);
-      else if (index == double) {
+      if (index != discard && elem != ignore) {
         result.push(elem);
-        result.push(elem);
+        lastItem = elem;
+      } else if (index == double) {
+        if (elem) {
+          result.push(elem);
+          result.push(elem);
+          lastItem = elem;
+        }
       }
     }
   });
