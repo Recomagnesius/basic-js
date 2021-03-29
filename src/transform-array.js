@@ -1,54 +1,50 @@
 const CustomError = require("../extensions/custom-error");
 
-module.exports = function transform(arr) {
-  if (!Array.isArray(arr)) throw "THROWN";
-  let discard;
-  let double;
-  let ignore;
-  let result = [];
-  let lastItem;
+const rule = {
+  "--double-next": 1,
+  "--double-prev": 2,
+  "--discard-next": 3,
+  "--discard-prev": 4
+};
 
-  arr.forEach((elem, index, arr) => {
-    //чекаем команды
+module.exports = function transform(ar) {
+  if(Array.isArray(ar) === false) {
+    throw new Error();
+  }
 
-    if (typeof elem == "string") {
-      let command = elem;
-      command = command.split("-");
+  const result = [];
 
-      if (command[2] == "discard") {
-        if (command[3] == "next") {
-          discard = index + 1;
-          ignore = elem;
-        } else if (command[3] == "prev") {
-          discard = index - 1;
-          ignore = elem;
-          result.splice(result.length - 1, 1);
-        }
+  for(let i = 0; i < ar.length; i += 1) {
+    if(rule[ar[i]]) {
+      switch(rule[ar[i]]) {
+        case 1:
+          if(i < ar.length - 1) {
+            result.push(ar[i + 1]);
+          }
+          break;
+        case 2:
+          if(i > 0) {
+            result.push(result[result.length - 1]);
+          }
+          break;
+        case 3:
+          if(i < ar.length) {
+            result.push(undefined);
+            i += 1;
+          }
+          break;
+        case 4:
+          if(i > 0) {
+            result.pop();
+          }
+          break;
       }
-      if (command[2] == "double") {
-        if (command[3] == "next") {
-          double = index + 1;
-          ignore = elem;
-        } else if (command[3] == "prev") {
-          double = index - 1;
-          ignore = elem;
-          result.push(lastItem);
-        }
-      }
+    } else {
+      result.push(ar[i]);
     }
-    //пушим в массив
-    if (elem) {
-      if (index != discard && elem != ignore) {
-        result.push(elem);
-        lastItem = elem;
-      } else if (index == double) {
-        if (elem) {
-          result.push(elem);
-          result.push(elem);
-          lastItem = elem;
-        }
-      }
-    }
+  }
+  const res = result.filter(function(x) {
+    return x !== undefined;
   });
-  return result;
+  return res;
 };
